@@ -1,0 +1,84 @@
+body{
+	background-image: url('../image/kittyBackground.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	font-size: 16px;
+	font-family: 'Gulim', 'sans-serif';
+}
+
+h1{
+	margin-top: .8em;
+	font-size: 9em;
+	text-align: center;
+	color: rgba(42, 109, 125, 0.8);
+	font-family: 'Heiti SC', 'sans-serif';
+	font-weight: 500;
+	letter-spacing: 3px;
+}
+
+h1>span{
+	font-size: .3em;
+	color: #B9910F;
+	font-family: "Andale Mono", AndaleMono, monospace;
+	font-weight: 400;
+	display: block;
+	margin-left: 10em;
+}
+
+section#menu{
+	position: relative;
+	left: 20%;
+	bottom: 0;
+}
+
+.menu-title{
+	font-family: "Andale Mono", AndaleMono, monospace;
+	font-weight: 300;
+	color: #E1AE0C;
+	font-size: 1.2em;
+}
+
+.menu-item-name{
+	color:#f3f3f3;
+	font-weight: 200;
+}
+
+button.right_column{
+	display: inline-block;
+	border: none;
+	border-radius: 5px;
+	background-color: #B9910F;
+	opacity: .9;
+	padding: 12px 20px;
+	position: absolute;
+	right: 20%;
+}
+
+/*FOOTER*/
+footer.footer{
+	background-color: #0A343E;
+	opacity: .55;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+}
+
+.contactInfo{
+	margin-top: 1em;
+} 
+
+.contactInfo a{
+	color: #E1E1E1;
+	opacity: 1;
+	font-size: .8em;
+	font-family: 'Gulim', 'sans-serif';
+}
+
+p#copyright{
+	font-size: .7em;
+	color: #E1E1E1;
+	font-family: 'Gulim', 'sans-serif';
+	margin-top: .5em;
+}
+
